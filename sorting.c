@@ -53,8 +53,8 @@ int compare_int(const void *a, const void *b)
 
 
 int main(void){
-    const int SIZE = 5; //定数として配列のサイズを宣言                          
-    int scores[SIZE] = {0, 60, 70, 100, 90};
+    const int SIZE = 6; //定数として配列のサイズを宣言                          
+    int scores[SIZE] = {100, 60, 70, 100, 90, 80};
     int i;
 
     printf("Before sort: ");
